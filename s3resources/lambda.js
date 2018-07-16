@@ -7,7 +7,7 @@ exports.handler = function (event, context, callback) {
     s3.putObject({
         "Body": "aaaa",
         "Bucket": "btbucket.images",
-        "Key": "test"
+        // "Key": "test"
     })
         .promise()
         .then(data => {
