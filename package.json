@@ -2,6 +2,7 @@
   "name": "s3resources",
   "version": "1.0.0",
   "dependencies": {
-    "aws-sdk": "2.176.0"
+    "aws-sdk": "2.176.0",
+    "slappforge-sdk-gcp": "0.0.1"
   }
 }
